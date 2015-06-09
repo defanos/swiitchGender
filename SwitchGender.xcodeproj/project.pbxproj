@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3704E01B25C0CF005FD5C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3704DF1B25C0CF005FD5C2 /* main.m */; };
+		DF3704E31B25C0CF005FD5C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3704E21B25C0CF005FD5C2 /* AppDelegate.m */; };
+		DF3704E91B25C0CF005FD5C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3704E71B25C0CF005FD5C2 /* Main.storyboard */; };
+		DF3704EB1B25C0CF005FD5C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3704EA1B25C0CF005FD5C2 /* Images.xcassets */; };
+		DF3704EE1B25C0CF005FD5C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF3704EC1B25C0CF005FD5C2 /* LaunchScreen.xib */; };
+		DF3704FA1B25C0CF005FD5C2 /* SwitchGenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3704F91B25C0CF005FD5C2 /* SwitchGenderTests.m */; };
+		DF3705051B25C144005FD5C2 /* SDFSwitchGenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3705041B25C144005FD5C2 /* SDFSwitchGenderViewController.m */; };
+		DF3705081B25C1C5005FD5C2 /* SDFPageOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3705071B25C1C5005FD5C2 /* SDFPageOneViewController.m */; };
+		DF37050B1B25C1DC005FD5C2 /* SDFPageTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF37050A1B25C1DC005FD5C2 /* SDFPageTwoViewController.m */; };
+		DF37050E1B25C1F8005FD5C2 /* SDFPageThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF37050D1B25C1F8005FD5C2 /* SDFPageThreeViewController.m */; };
+		DF3705111B25C217005FD5C2 /* SDFPageFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3705101B25C217005FD5C2 /* SDFPageFourViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF3704F41B25C0CF005FD5C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF3704D21B25C0CF005FD5C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3704D91B25C0CF005FD5C2;
+			remoteInfo = SwitchGender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF3704DA1B25C0CF005FD5C2 /* SwitchGender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchGender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3704DE1B25C0CF005FD5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3704DF1B25C0CF005FD5C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF3704E11B25C0CF005FD5C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF3704E21B25C0CF005FD5C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF3704E81B25C0CF005FD5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF3704EA1B25C0CF005FD5C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF3704ED1B25C0CF005FD5C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF3704F31B25C0CF005FD5C2 /* SwitchGenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchGenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3704F81B25C0CF005FD5C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3704F91B25C0CF005FD5C2 /* SwitchGenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchGenderTests.m; sourceTree = "<group>"; };
+		DF3705031B25C144005FD5C2 /* SDFSwitchGenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFSwitchGenderViewController.h; sourceTree = "<group>"; };
+		DF3705041B25C144005FD5C2 /* SDFSwitchGenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFSwitchGenderViewController.m; sourceTree = "<group>"; };
+		DF3705061B25C1C5005FD5C2 /* SDFPageOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFPageOneViewController.h; sourceTree = "<group>"; };
+		DF3705071B25C1C5005FD5C2 /* SDFPageOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFPageOneViewController.m; sourceTree = "<group>"; };
+		DF3705091B25C1DC005FD5C2 /* SDFPageTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFPageTwoViewController.h; sourceTree = "<group>"; };
+		DF37050A1B25C1DC005FD5C2 /* SDFPageTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFPageTwoViewController.m; sourceTree = "<group>"; };
+		DF37050C1B25C1F8005FD5C2 /* SDFPageThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFPageThreeViewController.h; sourceTree = "<group>"; };
+		DF37050D1B25C1F8005FD5C2 /* SDFPageThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFPageThreeViewController.m; sourceTree = "<group>"; };
+		DF37050F1B25C217005FD5C2 /* SDFPageFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFPageFourViewController.h; sourceTree = "<group>"; };
+		DF3705101B25C217005FD5C2 /* SDFPageFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFPageFourViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF3704D71B25C0CF005FD5C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3704F01B25C0CF005FD5C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF3704D11B25C0CF005FD5C2 = {
+			isa = PBXGroup;
+			children = (
+				DF3704DC1B25C0CF005FD5C2 /* SwitchGender */,
+				DF3704F61B25C0CF005FD5C2 /* SwitchGenderTests */,
+				DF3704DB1B25C0CF005FD5C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3704DB1B25C0CF005FD5C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3704DA1B25C0CF005FD5C2 /* SwitchGender.app */,
+				DF3704F31B25C0CF005FD5C2 /* SwitchGenderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF3704DC1B25C0CF005FD5C2 /* SwitchGender */ = {
+			isa = PBXGroup;
+			children = (
+				DF3704E11B25C0CF005FD5C2 /* AppDelegate.h */,
+				DF3704E21B25C0CF005FD5C2 /* AppDelegate.m */,
+				DF3704E71B25C0CF005FD5C2 /* Main.storyboard */,
+				DF3704EA1B25C0CF005FD5C2 /* Images.xcassets */,
+				DF3704EC1B25C0CF005FD5C2 /* LaunchScreen.xib */,
+				DF3704DD1B25C0CF005FD5C2 /* Supporting Files */,
+				DF3705031B25C144005FD5C2 /* SDFSwitchGenderViewController.h */,
+				DF3705041B25C144005FD5C2 /* SDFSwitchGenderViewController.m */,
+				DF3705061B25C1C5005FD5C2 /* SDFPageOneViewController.h */,
+				DF3705071B25C1C5005FD5C2 /* SDFPageOneViewController.m */,
+				DF3705091B25C1DC005FD5C2 /* SDFPageTwoViewController.h */,
+				DF37050A1B25C1DC005FD5C2 /* SDFPageTwoViewController.m */,
+				DF37050C1B25C1F8005FD5C2 /* SDFPageThreeViewController.h */,
+				DF37050D1B25C1F8005FD5C2 /* SDFPageThreeViewController.m */,
+				DF37050F1B25C217005FD5C2 /* SDFPageFourViewController.h */,
+				DF3705101B25C217005FD5C2 /* SDFPageFourViewController.m */,
+			);
+			path = SwitchGender;
+			sourceTree = "<group>";
+		};
+		DF3704DD1B25C0CF005FD5C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF3704DE1B25C0CF005FD5C2 /* Info.plist */,
+				DF3704DF1B25C0CF005FD5C2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF3704F61B25C0CF005FD5C2 /* SwitchGenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF3704F91B25C0CF005FD5C2 /* SwitchGenderTests.m */,
+				DF3704F71B25C0CF005FD5C2 /* Supporting Files */,
+			);
+			path = SwitchGenderTests;
+			sourceTree = "<group>";
+		};
+		DF3704F71B25C0CF005FD5C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF3704F81B25C0CF005FD5C2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF3704D91B25C0CF005FD5C2 /* SwitchGender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3704FD1B25C0CF005FD5C2 /* Build configuration list for PBXNativeTarget "SwitchGender" */;
+			buildPhases = (
+				DF3704D61B25C0CF005FD5C2 /* Sources */,
+				DF3704D71B25C0CF005FD5C2 /* Frameworks */,
+				DF3704D81B25C0CF005FD5C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchGender;
+			productName = SwitchGender;
+			productReference = DF3704DA1B25C0CF005FD5C2 /* SwitchGender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF3704F21B25C0CF005FD5C2 /* SwitchGenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3705001B25C0CF005FD5C2 /* Build configuration list for PBXNativeTarget "SwitchGenderTests" */;
+			buildPhases = (
+				DF3704EF1B25C0CF005FD5C2 /* Sources */,
+				DF3704F01B25C0CF005FD5C2 /* Frameworks */,
+				DF3704F11B25C0CF005FD5C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF3704F51B25C0CF005FD5C2 /* PBXTargetDependency */,
+			);
+			name = SwitchGenderTests;
+			productName = SwitchGenderTests;
+			productReference = DF3704F31B25C0CF005FD5C2 /* SwitchGenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF3704D21B25C0CF005FD5C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Yoox;
+				TargetAttributes = {
+					DF3704D91B25C0CF005FD5C2 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DF3704F21B25C0CF005FD5C2 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DF3704D91B25C0CF005FD5C2;
+					};
+				};
+			};
+			buildConfigurationList = DF3704D51B25C0CF005FD5C2 /* Build configuration list for PBXProject "SwitchGender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF3704D11B25C0CF005FD5C2;
+			productRefGroup = DF3704DB1B25C0CF005FD5C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF3704D91B25C0CF005FD5C2 /* SwitchGender */,
+				DF3704F21B25C0CF005FD5C2 /* SwitchGenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF3704D81B25C0CF005FD5C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3704E91B25C0CF005FD5C2 /* Main.storyboard in Resources */,
+				DF3704EE1B25C0CF005FD5C2 /* LaunchScreen.xib in Resources */,
+				DF3704EB1B25C0CF005FD5C2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3704F11B25C0CF005FD5C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF3704D61B25C0CF005FD5C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3705081B25C1C5005FD5C2 /* SDFPageOneViewController.m in Sources */,
+				DF3705051B25C144005FD5C2 /* SDFSwitchGenderViewController.m in Sources */,
+				DF3705111B25C217005FD5C2 /* SDFPageFourViewController.m in Sources */,
+				DF3704E31B25C0CF005FD5C2 /* AppDelegate.m in Sources */,
+				DF37050B1B25C1DC005FD5C2 /* SDFPageTwoViewController.m in Sources */,
+				DF37050E1B25C1F8005FD5C2 /* SDFPageThreeViewController.m in Sources */,
+				DF3704E01B25C0CF005FD5C2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3704EF1B25C0CF005FD5C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3704FA1B25C0CF005FD5C2 /* SwitchGenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF3704F51B25C0CF005FD5C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF3704D91B25C0CF005FD5C2 /* SwitchGender */;
+			targetProxy = DF3704F41B25C0CF005FD5C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF3704E71B25C0CF005FD5C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3704E81B25C0CF005FD5C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF3704EC1B25C0CF005FD5C2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3704ED1B25C0CF005FD5C2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF3704FB1B25C0CF005FD5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF3704FC1B25C0CF005FD5C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF3704FE1B25C0CF005FD5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchGender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF3704FF1B25C0CF005FD5C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchGender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF3705011B25C0CF005FD5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwitchGenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchGender.app/SwitchGender";
+			};
+			name = Debug;
+		};
+		DF3705021B25C0CF005FD5C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwitchGenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchGender.app/SwitchGender";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF3704D51B25C0CF005FD5C2 /* Build configuration list for PBXProject "SwitchGender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3704FB1B25C0CF005FD5C2 /* Debug */,
+				DF3704FC1B25C0CF005FD5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3704FD1B25C0CF005FD5C2 /* Build configuration list for PBXNativeTarget "SwitchGender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3704FE1B25C0CF005FD5C2 /* Debug */,
+				DF3704FF1B25C0CF005FD5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3705001B25C0CF005FD5C2 /* Build configuration list for PBXNativeTarget "SwitchGenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3705011B25C0CF005FD5C2 /* Debug */,
+				DF3705021B25C0CF005FD5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF3704D21B25C0CF005FD5C2 /* Project object */;
+}
